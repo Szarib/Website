@@ -1,0 +1,84 @@
+<HTML style="border:20px solid white">
+<title> Job Application </title>
+<style> 
+body 
+{background-color:#aacce6;)
+h1
+{color:white;
+font-size:50px:)
+h2
+{color:blue;)
+h3
+{color:red;)
+p 
+{color:red;
+font-size: 50px;}
+
+.flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content:right;
+  overflow: scroll;  
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: black;
+  width: 100px;
+  margin: 10px;
+  text-align: right;
+  line-height: 75px;
+  font-size: 30px;
+  }
+ </style>
+  <body> 
+  <div class="appform">
+  <p> Fill in the application from down below
+   <form>
+<div class="textincolumn-left">
+  <div class="textin"> First Name <br>
+  <input type="text" name="firstname" placeholder="First Name">
+  </div>
+  <div class="textincolumn-right">
+  <div class="textin">Surname <br>
+  <input type="text" name="surname" placeholder="Surname">
+  </div>
+ <div class="textin"> Email Address <br>
+  <input type="text" name="email" placeholder="Example@gmail.com">
+  </div>
+
+  <div class="textin"> Phone Number <br>
+  <input type="text" name="phoneno" placeholder="07504 123456">
+  </div>
+  </div>
+ <div class="cv"> Upload CV <br>
+ <input id="txt" type="text" placeholder="File Path" onclick="javascript:document.getElementById('file').click();">
+ <input id="txt" type="button" value="Upload File" onclick="javascript:document.getElementById('file').click();">
+ <input id="file" type="file" style="visibility: hidden;" name="img" onchange="ChangeText(this, 'txt');">
+ </div>
+ <input type="submit" value="Submit Application">
+ </form>
+ </div>
+
+<ul> 
+<li style="float: right">
+<a href="file://stu-04/student-homes/stu058060/Desktop/Hot%20beans/index.html"> Home page </a>
+</li> <br>
+<li style="float: right ">
+<a href="file://stu-04/student-homes/stu058060/Desktop/Hot%20beans/about%20us%20hot%20beans.html"> About us</a> <br>
+</li> <br>
+<li style="float: right ">
+<a href="file://stu-04/student-homes/stu058060/Desktop/Hot%20beans/links%20to%20other%20courses%20hot%20beans.html">courses</a>
+</li>
+<br> 
+<li style="float: right ">
+<a href="file://stu-04/student-homes/stu058060/Desktop/Hot%20beans/Job%20application%20hot%20beans%20.html">job application</a>
+</li> <br>
+<li style="float: right ">
+<a href="file://stu-04/student-homes/stu058060/Desktop/Hot%20beans/Job%20specification%20hot%20beans.html">job Specification</a>
+</li>
+</ul>
+</div>
+ </body>
+ </html>
